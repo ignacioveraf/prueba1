@@ -16,5 +16,3 @@ def georeference(n):
 n=0
 georeference(n)
 
-    #nombre= (consulta[n]['name'])
-    #print(nombre)
