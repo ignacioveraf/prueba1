@@ -6,7 +6,6 @@ response = requests.get('https://randomuser.me/api')
 consulta = json.loads(response.text)
 
 print(type(consulta))
-print(consulta['results'][0]['name']['first'])
 if consulta ['results'][0]['gender']== "male":
     print("el usuario es de sexo masculino:")
     print("Nombre:", consulta['results'][0]['name']['first'])
